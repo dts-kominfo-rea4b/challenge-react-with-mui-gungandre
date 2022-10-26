@@ -13,7 +13,6 @@ const App = () => {
 
   // Masukkan contacts yang sudah didapat dalam JSON sebagai initial state
   // Buatlah handler untuk menambahkan kontak baru yang akan dikirim ke ContactForm
-
   const [contacts, setContacts] = useState(contactsJSON);
 
   const handleNewContact = (value) => {
